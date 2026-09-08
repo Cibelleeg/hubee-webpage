@@ -27,7 +27,7 @@ jobs:
         run: npm run lint
 
       - name: Executar Testes
-        run: npm run test
+        run: npm run test:ci
 
       - name: Executar Build (Next.js)
         run: npm run build
